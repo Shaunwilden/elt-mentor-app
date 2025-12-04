@@ -1,1 +1,5 @@
-{"version": 2,"builds": [{"src": "reflectai_-elt-mentor/package.json","use": "@vercel/static-build","config": { "distDir": "reflectai_-elt-mentor/dist" }}]}
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
